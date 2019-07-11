@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './Welcome';
+import ShoppingList from './ShoppingList';
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Welcome name="Sara" />
+          <ShoppingList name="Sara02"/>
         </a>
       </header>
     </div>
